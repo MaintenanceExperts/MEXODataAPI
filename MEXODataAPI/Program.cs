@@ -9,7 +9,7 @@ namespace MEXODataAPI
 {
     class Program
     {
-        const string MEXURL = "http://trial.mex.com.au/MEXTrial/OData.svc"; // change this URL to your own MEX server, or you can use the trial for testing
+        const string MEXURL = "https://trial.mex.com.au/MEXAPI/OData.svc"; // change this URL to your own MEX server, or you can use the trial for testing
 
         static DataToken DataToken { get; set; }
 
